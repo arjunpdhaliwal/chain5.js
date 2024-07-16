@@ -97,7 +97,6 @@ chain5.loadFilterChain = function(filenames) {
         uniform: The name of the uniform
         value: The value that is being set      */
 chain5.setFilterUniform = function(file, uniform, value) {
-    console.log(chain5.filterChain);
     chain5.filterChain[chain5.fileToChainIndex[file]].setUniform(uniform, value);
 }
 
