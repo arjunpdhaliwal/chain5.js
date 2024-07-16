@@ -13,7 +13,7 @@ let chain5Context = this;
     
     In:
         fragFilename: The path of the fragment shader.  */
-chain5.loadFilter = function(fragFilename) {a
+chain5.loadFilter = function(fragFilename) {
     let defaultVertV1 = `
         uniform mat4 uModelViewMatrix;
         uniform mat4 uProjectionMatrix;
